@@ -8,11 +8,10 @@
     <version>1.0-SNAPSHOT</version>
 
     <distributionManagement>
-        <repository>
+        <snapshotRepository>
             <id>nexus</id>
-            <name>Nexus Release Repo</name>
             <url>http://localhost:9081/repository/maven-drools/</url>
-        </repository>
+        </snapshotRepository>
     </distributionManagement>
 
     <properties>
