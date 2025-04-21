@@ -1,5 +1,9 @@
 <kmodule xmlns="http://www.drools.org/xsd/kmodule">
-    <kbase name="rules" packages="com.ejemplo.reglas">
-        <ksession name="ksession-rules"/>
+    <kbase name="rulesKBase" packages="reglas">
+        <ksession name="rulesKSession"/>
+    </kbase>
+
+    <kbase name="decisionKBase" packages="tablaEdad">
+        <ksession name="decisionKSession"/>
     </kbase>
 </kmodule>
