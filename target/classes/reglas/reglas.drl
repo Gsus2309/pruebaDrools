@@ -7,6 +7,5 @@ rule "Es mayor de edad"
 when
     $p : Persona( edad >= 18 )
 then
-    System.out.println("Aplicando regla para: " + $p.getNombre());
     $p.setMayor(true);
 end

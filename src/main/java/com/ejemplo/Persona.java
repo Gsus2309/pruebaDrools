@@ -1,6 +1,9 @@
 
 package com.ejemplo;
 
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Persona {
     private String nombre;
     private int edad;
@@ -25,6 +28,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return nombre + " - Edad: " + edad + " - ¿Mayor?: " + mayor;
+        return "Persona[nombre=" + nombre + ", edad=" + edad + ", mayor=" + mayor + "]";
     }
+
 }
