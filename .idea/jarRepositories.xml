@@ -9,7 +9,7 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
-      <option name="url" value="http://localhost:9081/repository/maven-public-drools/" />
+      <option name="url" value="http://172.26.186.91:8085/repository/maven-public-drools/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
