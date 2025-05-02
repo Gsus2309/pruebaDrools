@@ -10,7 +10,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexus</id>
-            <url>http://localhost:9081/repository/maven-drools/</url>
+            <url>http://172.26.186.91:8085/repository/maven-drools/</url>
         </snapshotRepository>
     </distributionManagement>
 
